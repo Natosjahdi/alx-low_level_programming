@@ -22,7 +22,7 @@ else if (n == 0)
 {
 printf("is zero\n");
 }
- else
+else
 {
 printf("is negative\n");
 }
