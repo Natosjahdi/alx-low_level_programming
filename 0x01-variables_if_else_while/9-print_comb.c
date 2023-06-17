@@ -3,7 +3,8 @@
 * main - printing only possible digits
 * Return: Always 0 (indicating successful execution)
 */
-int main(void) {
+int main(void)
+{
 int number;
 for (number = 0; number < 10; number++)
 {
