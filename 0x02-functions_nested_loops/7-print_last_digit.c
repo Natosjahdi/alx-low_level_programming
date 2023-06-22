@@ -9,4 +9,4 @@ int num;
 int lastDigit = num % 10;
 _putchar(lastDigit + '0');
 return (lastDigit);
-}i
+}
