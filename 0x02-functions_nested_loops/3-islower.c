@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* islower - Prints the alphabet lower case times.
-* @islower: Number to pass to _islower function
+* int _islower(int c) - Prints the alphabet lower case times.
+* 
 * description:
 * Write a function that prints 10 times the alphab.
 *
