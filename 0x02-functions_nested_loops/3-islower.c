@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-* print_alpahabet_x10 - Prints the alphabet 10 times.
-*
+* islower - Prints the alphabet lower case times.
+* @n: Number to pass to _islower function
 * description:
 * Write a function that prints 10 times the alphab.
 *
@@ -9,12 +9,12 @@
 */
 int _islower(int c)
 {
-    if (c >= 'a' && c <= 'z') 
-    {
-        return 1;
-    } 
-    else 
-    {
-        return 0; 
-    }
+if (c >= 'a' && c <= 'z')
+{
+return (1);
+}
+else
+{
+return (0);
+}
 }
