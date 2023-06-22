@@ -1,27 +1,39 @@
 #include "main.h"
+
 /**
-*  times_table - value of an integer.
-*
-* Return: The absolute value of n.
+* times_table - print multiplication table
 */
+
 void times_table(void)
 {
-int i, j, result;
+int i;
+int j;
+int product;
 
-for (i = 0; i <= 9; i++) {
-for (j = 0; j <= 9; j++) {
-result = i * j;
-if (result <= 9)
+for (i = 0; i <= 9; i++)
 {
-_putchar(result + '0');
-}
-else
+for (j= 0; j<= 9; j++)
 {
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
+product = (i* j);
+
+if (column == 0)
+{
+_putchar('0' + product);
 }
+else if (product <= 9)
+{
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
+_putchar('0' + product);
+}
+else if (product > 9)
+{
+_putchar(',');
+_putchar(' ');
+_putchar('0' + (product / 10));
+_putchar('0' + (product % 10));
+}
 }
 _putchar('\n');
 }
