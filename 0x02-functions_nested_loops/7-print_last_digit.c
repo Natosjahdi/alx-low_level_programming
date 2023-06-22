@@ -3,7 +3,7 @@
 * print_last_digit - value of an integer.
 * Return: The absolute value of n.
 */
-int print_last_digit(int)
+int print_last_digit(int num)
 {
 int num;
 int lastDigit = num % 10;
