@@ -16,7 +16,7 @@ for (j= 0; j<= 9; j++)
 {
 product = (i* j);
 
-if (column == 0)
+if (j == 0)
 {
 _putchar('0' + product);
 }
