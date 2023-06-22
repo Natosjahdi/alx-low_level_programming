@@ -1,8 +1,6 @@
 #include "main.h"
 /**
-* print_alpahabet_x10 - Prints the alphabet 10 times.
-*
-* description:print_alpahabet_x10 Write a function that prints 10 times the.
+* print_alphabet_x10 - Prints the alphabet 10 times.
 *
 * Return: Always 0 (success)
 */
