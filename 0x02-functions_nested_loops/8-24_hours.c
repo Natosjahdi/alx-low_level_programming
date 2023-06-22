@@ -15,6 +15,7 @@ for (min = 0; min < 60; min++)
 {
 if (hours < 10)
 {
+_putchar('0' + 48);	
 _putchar('0' + hours);
 }
 else
