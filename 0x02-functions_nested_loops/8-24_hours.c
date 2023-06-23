@@ -27,6 +27,7 @@ _putchar('0' + (hours % 10));
 _putchar(':');
 if (min < 10)
 {
+_putchar('0' + not);
 _putchar('0' + min);
 }
 else
